@@ -17,7 +17,7 @@ namespace ReadParameterStoreJson
         static async Task Main(string[] args)
         {
             var credential = new SessionAWSCredentials("accessKey", "secretAccess", "sessionToken");
-                            
+
             var ssmClient = new AmazonSimpleSystemsManagementClient(credential);
 
             var path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory())
@@ -39,7 +39,7 @@ namespace ReadParameterStoreJson
                 result.Add(parameter.Name, putResponse.HttpStatusCode.ToString());
             }
 
-            Console.WriteLine($"Resultado: \n {result}");
+            Console.WriteLine($"Resultado: \n {JsonConvert.SerializeObject(result)}");
             Console.ReadKey();
         }
     }
