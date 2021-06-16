@@ -1,0 +1,112 @@
+{
+    "Parameters": [
+        {
+            "Name": "/m2m.integrator/PollyConfig/DuracaoAmostragemEmSegundos",
+            "Type": "String",
+            "Value": "5",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:23:54.225000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/DuracaoAmostragemEmSegundos",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/PollyConfig/DuracaoCircuitBreakerEmSegundos",
+            "Type": "String",
+            "Value": "10",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:23:38.471000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/DuracaoCircuitBreakerEmSegundos",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/PollyConfig/JitterMinRange",
+            "Type": "String",
+            "Value": "0",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:23:09.439000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/JitterMinRange",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/PollyConfig/LimiteFalhas",
+            "Type": "String",
+            "Value": "0.6",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:23:24.168000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/LimiteFalhas",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/PollyConfig/MaximaTentativas",
+            "Type": "String",
+            "Value": "5",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:22:14.063000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/MaximaTentativas",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/PollyConfig/PausaEntreRetries",
+            "Type": "String",
+            "Value": "2",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:22:37.623000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/PausaEntreRetries",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/PollyConfig/VazaoMinima",
+            "Type": "String",
+            "Value": "20",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:24:07.129000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/PollyConfig/VazaoMinima",
+            "DataType": "text"
+        },
+		{
+            "Name": "/m2m.integrator/PollyConfig/JitterRangeMaximo",
+            "Type": "String",
+            "Value": "100",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:22:51.315000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/MassTransitConfig/JitterRangeMaximo",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/MassTransitConfig/RelatorioFechamentoFila",
+            "Type": "String",
+            "Value": "relatorio-fechamento-fila",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:19:13.801000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/MassTransitConfig/RelatorioFechamentoFila",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/MassTransitConfig/RelatorioFechamentoTopico",
+            "Type": "String",
+            "Value": "relatorio-fechamento-topico",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:19:33.120000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/MassTransitConfig/RelatorioFechamentoTopico",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/MassTransitConfig/RelatorioLiquidacaoFila",
+            "Type": "String",
+            "Value": "relatorio-liquidacao-fila",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:19:53.462000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/MassTransitConfig/RelatorioLiquidacaoFila",
+            "DataType": "text"
+        },
+        {
+            "Name": "/m2m.integrator/MassTransitConfig/RelatorioLiquidacaoTopico",
+            "Type": "String",
+            "Value": "relatorio-liquidacao-topico",
+            "Version": 1,
+            "LastModifiedDate": "2021-06-16T10:21:08.407000-03:00",
+            "ARN": "arn:aws:ssm:us-east-1:300924307056:parameter/m2m.integrator/MassTransitConfig/RelatorioLiquidacaoTopico",
+            "DataType": "text"
+        }
+    ]
+}
